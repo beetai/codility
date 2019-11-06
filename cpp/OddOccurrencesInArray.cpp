@@ -1,3 +1,4 @@
+// OddOccurencesInArray solution
 // you can use includes, for example:
 // #include <algorithm>
 #include <unordered_map>
