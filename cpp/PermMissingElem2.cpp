@@ -7,6 +7,7 @@
 // cout << "this is a debug message" << endl;
 
 int solution(vector<int> &A) {
+    if (A.empty()) return 1;
     sort(A.begin(), A.end());
     int N = A.size();
     if (*A.begin() != 1) return 1;
